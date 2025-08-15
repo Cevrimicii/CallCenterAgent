@@ -1,0 +1,38 @@
+# LangChain ve ilgili bileşenler
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+langchain-openai>=0.0.8
+langsmith>=0.1.0
+
+# HTTP istemci
+httpx>=0.24.0
+
+# Veri işleme
+pandas>=1.5.0
+
+# Makine öğrenmesi ve embeddings
+transformers>=4.21.0
+torch>=2.0.0
+sentence-transformers>=2.2.0
+
+# Vector database
+faiss-cpu>=1.7.4
+# Eğer GPU kullanıyorsanız faiss-cpu yerine faiss-gpu kullanın
+
+# Web API framework
+fastapi>=0.100.0
+uvicorn>=0.22.0
+
+# Pydantic (FastAPI ile birlikte gelir ama belirtmek faydalı)
+pydantic>=2.0.0
+
+# Async support
+asyncio
+
+# Opsiyonel: Hugging Face Hub
+huggingface-hub>=0.16.0
+
+# Development ve testing (opsiyonel)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
